@@ -12,5 +12,6 @@ public class NpcCars : MonoBehaviour
     void Update()
     {
         transform.Translate(Vector3.forward * Time.deltaTime * 20);
+  
     }
 }
